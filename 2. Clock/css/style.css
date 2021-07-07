@@ -34,7 +34,9 @@ body{
 .hour-hand{
     background-color: white;
     margin-top: 25vmin;
-    width: 25vmin;
+    margin-left: 5vmin;
+    width: 20vmin;
+    /* width: 25vmin; */
     height: 1vmin;
 }
 

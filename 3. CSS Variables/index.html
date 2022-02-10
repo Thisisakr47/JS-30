@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>CSS Variables</title>
+  </head>
+  <body>
+    <section class="header">
+      <h1>Welcome to <span class="var-text">CSS</span> Variables</h1>
+    </section>
+    <section class="variable">
+      <div class="spacing">
+        <div class="var-container">Spacing</div>
+        <div class="var-container">
+          <input
+            type="range"
+            name="spacing"
+            min="0"
+            max="200"
+            value="10"
+            data-sizing="px"
+          />
+        </div>
+      </div>
+      <div class="blur">
+        <div class="var-container">Blur</div>
+        <div class="var-container">
+          <input
+            type="range"
+            name="blur"
+            min="0"
+            max="25"
+            value="2"
+            data-sizing="px"
+          />
+        </div>
+      </div>
+      <div class="color">
+        <div class="var-container">Color</div>
+        <div class="var-container">
+          <input name="color" type="color" value="#FFF700" />
+        </div>
+      </div>
+    </section>
+    <section class="body">
+      <img
+        src="https://images.unsplash.com/photo-1620553967189-8c0eddd81c97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzR8fHRoZSUyMHNvdXJjZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        alt="street_image"
+      />
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>

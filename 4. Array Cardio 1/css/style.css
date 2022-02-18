@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(37, 37, 37);
+    color: white;
+}

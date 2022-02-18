@@ -12,3 +12,6 @@ Click [here](https://analogclock47.netlify.app/) for live link.
 
 - `CSS Variables` - Using variables in CSS & JS, I created a photo whose *padding*, *blurriness* & *background color* can be changed variably using sliders.
 Click [here](https://css-variables-47.netlify.app/) for live link.
+
+- `Array Cardio I` - Understood fundamentals of arrays in JS. Used simple array techniques such as *sort*, *reduce*, *filter*, *map*, etc. in JS Console. 
+Click [here](https://array-cardio-1.netlify.app/) for live link.

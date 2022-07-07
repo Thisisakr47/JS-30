@@ -1,0 +1,66 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background: url("../images/background.jpg");
+    background-color: black;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-shrink: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock{
+    border: 3vmin solid white;
+    border-radius: 100%;
+    width: 50vmin;
+    height: 50vmin;
+    position: fixed;
+    padding: 2.5vmin;
+}
+
+.hand{
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 50ms;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+
+.hour-hand{
+    background-color: white;
+    margin-top: 25vmin;
+    margin-left: 5vmin;
+    width: 20vmin;
+    /* width: 25vmin; */
+    height: 1vmin;
+}
+
+.minute-hand{
+    background-color: white;
+    width: 25vmin;
+    margin-top: -1vmin;
+    height: 1vmin;
+    
+}
+
+.second-hand{
+    background-color: white;
+    width: 25vmin;
+    margin-top: -1vmin;
+    height: 1vmin;
+}
+
+.time{
+    border: 0.5vmin solid white;
+    border-radius: 25%;
+    margin-left: 80vmin;
+    color: white;
+    font-size: 5vmin;
+    padding: .5vmin;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
